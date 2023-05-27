@@ -1,0 +1,6 @@
+bike 10 2000
+sportsbike 15 20000
+familycar 25 3000
+truck 9 2000
+sportscar 13 30000
+plane 5 500000

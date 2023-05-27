@@ -1,0 +1,5 @@
+flour 100 50
+rice 100 30
+fish 100 150
+meat 150 300
+milk 28 30
