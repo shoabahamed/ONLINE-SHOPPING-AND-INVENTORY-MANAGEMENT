@@ -26,6 +26,6 @@ and also updates the inventory after each customers buys something. Layout of th
 * Many more 
 
 ### DEVELOPERS
-****Name:**** Shoab Ahamed 
-****Date:**** 28/05/2023
+****Name:**** Shoab Ahamed <br>
+****Date:**** 28/05/2023 <br>
 ****Context:**** OOP LAB PROJECT
