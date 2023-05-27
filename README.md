@@ -11,3 +11,21 @@ and also updates the inventory after each customers buys something. Layout of th
 * records each customers purchase and add them to stores sells log and customers shopping cart
 * has differnt inventory or item section to browse based on customers interest
 * has security protection so that the can not be accessed by the user
+
+## OOP CONCEPTS USED
+
+* Objects
+* Inheritence
+* Constructors & Destructors
+* Polymorphism 
+* Encapsulation 
+* Abstraction
+* Files
+* Static variables and functions
+* Virtual fuctions
+* Many more 
+
+### DEVELOPERS
+****Name:**** Shoab Ahamed 
+****Date:**** 28/05/2023
+****Context:**** OOP LAB PROJECT
