@@ -10,7 +10,7 @@ and also updates the inventory after each customers buys something. Layout of th
 * works with both files and console
 * records each customers purchase and add them to stores sells log and customers shopping cart
 * has differnt inventory or item section to browse based on customers interest
-* has security protection so that the can not be accessed by the user
+* has security protection so that the data can not be accessed by the user
 
 ## OOP CONCEPTS USED
 
