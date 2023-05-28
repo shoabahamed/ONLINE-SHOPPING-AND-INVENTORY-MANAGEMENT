@@ -13,7 +13,7 @@ and also updates the inventory after each customers buys something. Layout of th
 * has security protection so that the data can not be accessed by the user
 
 An abstract overview 
-![Alt text](shopping abstract overview.png)
+![Alt text](shopping_abstract_overview.png)
 
 ## OOP CONCEPTS USED
 
