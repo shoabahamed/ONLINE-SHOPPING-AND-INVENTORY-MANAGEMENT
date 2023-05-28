@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1685261390 source:f:\github\online-shopping-and-inventory-management\inventory.cpp
+	"Inventory.h"
+	<string>
+
+1685088216 f:\github\online-shopping-and-inventory-management\inventory.h
+	"SuperStore.h"
+
+1685090584 f:\github\online-shopping-and-inventory-management\superstore.h
+	<iostream>
+	<algorithm>
+	<vector>
+	<fstream>
+	<sstream>
+	<cctype>
+	<string>
+
+1685260811 source:f:\github\online-shopping-and-inventory-management\main.cpp
+	<iostream>
+	"Customer.h"
+	<functional>
+	<algorithm>
+
+1685079987 f:\github\online-shopping-and-inventory-management\customer.h
+	"Store.h"
+
+1685260803 f:\github\online-shopping-and-inventory-management\store.h
+	"SuperStore.h"
+	"Inventory.h"
+
+1685260803 source:f:\github\online-shopping-and-inventory-management\store.cpp
+	"Store.h"
+
+1685089819 source:f:\github\online-shopping-and-inventory-management\superstore.cpp
+	"SuperStore.h"
+

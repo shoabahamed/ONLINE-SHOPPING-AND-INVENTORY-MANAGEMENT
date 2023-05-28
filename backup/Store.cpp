@@ -12,17 +12,7 @@ void Store::get_total_sell(){
 }
 
 //set up store and inventory type after taking input from user
-void Store:: set_store(int input){
-    string st_name;
-    if(input == 1)
-        st_name = "grocery";
-    else if(input == 2)
-        st_name = "clothes";
-    else if(input == 3)
-        st_name = "tech";
-    else
-        st_name = "cars";
-
+void Store:: set_store(string st_name){
     store_type = st_name;
     inv.set_inventory(st_name);
     inv.set_values();

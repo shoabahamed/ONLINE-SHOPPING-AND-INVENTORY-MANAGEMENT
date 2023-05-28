@@ -11,7 +11,7 @@ class Store: public SuperStore
         //internal non inherited methods
         void get_store_type();
         void get_total_sell();
-        void set_store(int);
+        void set_store(string);
         Inventory get_inventory();
 
     protected:

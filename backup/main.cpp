@@ -1,18 +1,15 @@
 #include <iostream>
 #include "Customer.h"
-#include <functional>
-#include <algorithm>
+//building in using different version may cause problems so if other version of the compiler is used please
+//delete the .o files first them compile
 using namespace std;
-
-void display();
 
 int main()
 {
-    string customer_name;
-    int balance, user_input;
+    string customer_name, user_input;
+    int balance;
     bool exitFlag = false;
 
-    display();
     cout << "Enter your name: ";
     getline(cin, customer_name);
     cout << "Enter the amount of money you have to buy products: ";
@@ -24,23 +21,24 @@ int main()
     while(!exitFlag){
         cout << endl;
         cout << "*******************************************************************************" << endl
-        << "Enter 1 to go to Daily Necessity Section "<< endl
-        << "Enter 2 to go to Clothes Section " << endl
-        << "Enter 3 to go to Technology  Section " << endl
-        << "Enter 4 to go to Automobile Section " << endl
-        << "Enter 5 to see shopping cart" << endl
-        << "Enter 0 to exit our site" << endl;
+        << "Enter grocery to go to Daily Necessity Section "<< endl
+        << "Enter clothes to go to Clothes Section " << endl
+        << "Enter tech to go to Technology  Section " << endl
+        << "Enter cars to go to Automobile Section " << endl
+        << "Enter cart to see shopping cart" << endl
+        << "Enter quit to exit our site" << endl
+        << "Caution enter small letter only" << endl;
         cout << endl;
         cin.ignore();
         cout << "Where do you want to go: ";
         cin >> user_input;
 
-        if(user_input == 1 || user_input == 2 || user_input == 3 || user_input == 4){
+        if(user_input == "grocery" || user_input == "tech" || user_input == "cars" || user_input == "clothes"){
             c.set_store(user_input);
             c.get_inventory().show_inventory();
             c.buy_item();
         }
-        else if(user_input == 5){
+        else if(user_input == "cart"){
             cout << c;
         }
         else{
@@ -49,8 +47,3 @@ int main()
     }
     return 0;
 }
-
-void display(){
-    cout << "##############################  WELCOME TO ABCD SUPER STORE  #####################" << endl;
-}
-

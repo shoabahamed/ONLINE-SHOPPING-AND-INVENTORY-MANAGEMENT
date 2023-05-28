@@ -23,7 +23,6 @@ and also updates the inventory after each customers buys something. Layout of th
 * Files
 * Static variables and functions
 * Virtual fuctions
-* operator overloading
 * Many more 
 
 ### DEVELOPERS

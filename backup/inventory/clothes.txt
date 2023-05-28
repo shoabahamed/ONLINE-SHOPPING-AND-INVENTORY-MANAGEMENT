@@ -1,4 +1,4 @@
-t-shirt 41 500
+t-shirt 44 500
 pants 27 600
 geans 46 400
 shoes 100 750

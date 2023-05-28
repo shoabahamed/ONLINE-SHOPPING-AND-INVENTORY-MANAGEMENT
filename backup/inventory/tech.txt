@@ -1,0 +1,5 @@
+laptop 25 3000
+watch 35 200
+desktop 10 2000
+tablet 15 1500
+iphone 20 1000

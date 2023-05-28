@@ -5,8 +5,7 @@
 #include <vector>
 #include <fstream>
 #include <sstream>
-#include <cctype>
-#include <string>
+
 using namespace std;
 
 class SuperStore
