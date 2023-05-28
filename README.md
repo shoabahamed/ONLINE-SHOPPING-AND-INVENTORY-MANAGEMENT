@@ -12,6 +12,9 @@ and also updates the inventory after each customers buys something. Layout of th
 * has differnt inventory or item section to browse based on customers interest
 * has security protection so that the data can not be accessed by the user
 
+An abstract overview 
+![Alt text](shopping abstract overview.png)
+
 ## OOP CONCEPTS USED
 
 * Objects
